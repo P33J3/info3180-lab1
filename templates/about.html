@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
     <title>My Website</title>
 </head>
-<body>
+<body class="container">
     <h1>Peter Jon L.</h1>
+    <div class="main-block">
+        <img src="{{ url_for('static', filename='pj no fear revised.jpg') }}" alt="hero image">
     <p>Football, Harry Potter, Cars. In that order.</p>
         <p>I am a typical guy,
     I enjoy a good laugh and food.</p>
+    </div>
 </body>
 </html>
